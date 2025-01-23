@@ -1,0 +1,42 @@
+.pagination-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.Entries {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pagination-buttons ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 7px;
+}
+
+.pagination-buttons ul li button {
+    font-size: 18px;
+    height: 35px;
+    width: 45px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: 600;
+    background: white;
+    border: 1px solid white;
+}
+
+.pagination-buttons ul li.active button {
+    background-color: black;
+    color: white;
+}
+
+.pagination-buttons ul li button:hover {
+    background-color: black;
+    color: white;
+}
