@@ -35,7 +35,7 @@ function Paginations({ limit = 10, setLimit, totalCount = 0, currentPage = 1, se
         pageDecrementBtn = <li><button onClick={handlePre} >&hellip;</button></li>
     }
 
-    if (pages.lenth > maxPageNumberLimit) {
+    if (pages.length > maxPageNumberLimit) {
         pageIncrementBtn = <li><button onClick={handleNext}>&hellip;</button></li>
     }
 
